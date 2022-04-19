@@ -186,7 +186,6 @@ header,
 
 /******** RATES ********/  
 .plans{
-    height: 500px;
     width: 80%;
     margin: auto;
     text-align: center;
@@ -201,7 +200,6 @@ header,
 }
 
 .plans-col{
-    height: 230px;
     flex-basis: 25%;
     background: #A2DBFA;
     border-radius: 15px;
@@ -239,6 +237,47 @@ h3{
     margin: 10px 10px;
 }
 /******** END RATES ********/
+
+/******** RENT VEHICLE ********/  
+#rent {
+    background-color: #89BAD9;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#rent h1 {
+    font-size: 36px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+
+#rent p {
+    font-size: 24px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+
+#rent a {
+    width: 214px;
+    height: 82px;
+    font-size: 28px;
+    background-color: #30A8F2;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#rent a:hover {
+    background-color: #FFFFFF;
+}
+/******** END RENT VEHICLE ********/
 
 @media (min-width: 576px) {
     /******** NAVBAR ********/  
@@ -452,7 +491,17 @@ h3{
     /******** END RATES ********/
 
     /******** RENT VEHICLE ********/  
-    
+    #rent h1 {
+        font-size: 55px;
+    }
+
+    #rent p {
+        font-size: 36px;
+    }
+
+    #rent button {
+       font-size: 36px;
+    }
     /******** END RENT VEHICLE ********/
 
     /******** US ********/  
