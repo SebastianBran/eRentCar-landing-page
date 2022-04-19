@@ -279,6 +279,33 @@ h3{
 }
 /******** END RENT VEHICLE ********/
 
+/******** US ********/  
+#us {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#us h1 {
+    font-size: 55px;
+    padding: 30px;
+}
+
+#us img{
+    width: 80%;
+    height: 282px;
+}
+
+#us p {
+    font-size: 24px;
+    text-align: justify;
+    padding: 30px;
+}
+/******** END US ********/
+
 @media (min-width: 576px) {
     /******** NAVBAR ********/  
 
@@ -505,6 +532,14 @@ h3{
     /******** END RENT VEHICLE ********/
 
     /******** US ********/  
+    .content-us {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #us p {
+        font-size: 36px;
+    }
     /******** END US ********/
 
     /******** FOOTER ********/  
