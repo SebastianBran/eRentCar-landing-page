@@ -184,6 +184,14 @@ header,
 }
 /** END HERO PAGER **/
 
+/******** SERVICES ********/
+
+.title-section {
+    font-size: 36px;
+}
+
+/******** END SERVICES ********/
+
 /******** RATES ********/  
 .plans{
     width: 80%;
@@ -462,6 +470,9 @@ h3{
     /******** END BENEFITS ********/
 
     /******** SERVICES ********/  
+    .title-section {
+        font-size: 36px;
+    }
 
     /******** END SERVICES ********/
    
@@ -655,4 +666,22 @@ h3{
     /******** FOOTER ********/  
 
     /******** END FOOTER ********/
+}
+
+#about-the-product,
+#about-the-team {
+    display: flex;
+    justify-content: center;
+}
+
+#about-the-product-section,
+#about-the-team-section {
+    background-color: #89BAD9;
+    margin: 0px;
+    padding: 10px;
+}
+
+#about-the-product-title,
+#about-the-team-title {
+    margin: 0px;
 }
