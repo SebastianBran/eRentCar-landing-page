@@ -191,6 +191,52 @@ header,
 }
 /** END HERO PAGER **/
 
+/******** BENEFITS ********/  
+.benefits{
+    text-align: center;
+    padding: 40px 0;
+}
+
+.inner-benefit{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.row-benefit{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col-benefit{
+    flex: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.benefit {
+    background: #fff;
+    padding: 30px;
+}
+
+.benefits img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.title-section{
+    font-size: 36px;
+}
+
+.benefit p {
+    font-size: 24px;
+}
+/******** END BENEFITS ********/
+
 /** SERVICES **/
 .services{
     text-align: center;
@@ -520,7 +566,16 @@ h3{
     /******** END HERO PAGER ********/
 
     /******** BENEFITS ********/ 
-    
+    .title-section{
+        font-size: 55px;
+    } 
+    .col-benefit{
+        flex: 33.33%;
+        max-width: 33.33%;
+    }
+    .benefit p {
+        font-size: 36px;
+    }
     /******** END BENEFITS ********/
 
     /******** SERVICES ********/  
