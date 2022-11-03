@@ -5,13 +5,6 @@
     box-sizing: border-box;
 }
 
-
-
-
-
-
-   
-
 /******** NAVBAR ********/  
 header,
 #menu {
@@ -462,6 +455,8 @@ h3{
 .icon{
     padding: 0 5px 0 20px;
     cursor: pointer;
+    height: 100px;
+    width: 100px;
 }
 
 @font-face {
@@ -490,9 +485,19 @@ h3{
     -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-ancle {
+    margin-top: 20px;
+    display: block;
+}
+
 .icon-facebook:before {
-    color: #3b5998;
+    /*color: #3b5998;*/
+    color: white;
+    background-color: #3b5998;;
     content: "\ea90";
+    font-size: 40px;
+    padding: 10px;
+    border-radius: 50%;
 }
 
 .icon-instagram:before {
